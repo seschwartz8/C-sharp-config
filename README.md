@@ -14,6 +14,15 @@ FULL DESCRIPTION HERE
 - ?
 - ?
 
+## Specs
+
+User will do a thing and get a result.
+- Sample input: 
+- Expected output:
+User will do a thing and get a result.
+- Sample input: 
+- Expected output:
+
 ## Known Bugs
 
 - No known bugs
@@ -21,7 +30,7 @@ FULL DESCRIPTION HERE
 ## Technologies Used
 
 - C#
--
+- .NET
 
 ### License
 
