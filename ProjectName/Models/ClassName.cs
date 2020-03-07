@@ -1,7 +1,6 @@
 using System;
 
-
-namespace ProjectName
+namespace ProjectName.Models
 {
   public class ClassName
   {
@@ -27,9 +26,9 @@ namespace ProjectName
       Property3 = property3;
     }
 
-    public bool MethodName () {
+    public bool MethodName()
+    {
       return true;
     }
-  }  
+  }
 }
-
