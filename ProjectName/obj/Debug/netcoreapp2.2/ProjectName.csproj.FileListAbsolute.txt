@@ -12,3 +12,12 @@
 /Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.RazorTargetAssemblyInfo.cache
 /Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.dll
 /Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.pdb
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/bin/Debug/netcoreapp2.2/ProjectName.Views.dll
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/bin/Debug/netcoreapp2.2/ProjectName.Views.pdb
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.TagHelpers.input.cache
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.TagHelpers.output.cache
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.RazorCoreGenerate.cache
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/Razor/Views/Home/Landing.g.cshtml.cs
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.RazorTargetAssemblyInfo.cs
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.Views.pdb
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.csproj.CopyComplete

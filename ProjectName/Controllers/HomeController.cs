@@ -5,7 +5,7 @@ namespace ProjectName.Controllers
   public class HomeController : Controller
   {
     [Route("/")]
-    public string Landing() { return "Welcome to the site! This is the root route."; }
+    public ActionResult Landing() { return View(); }
 
     [Route("/hello")]
     public string Hello() { return "Hello!"; }
