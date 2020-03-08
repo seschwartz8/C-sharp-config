@@ -21,3 +21,5 @@
 /Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.RazorTargetAssemblyInfo.cs
 /Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.Views.pdb
 /Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/ProjectName.csproj.CopyComplete
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/Razor/Views/Home/Form.g.cshtml.cs
+/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/Debug/netcoreapp2.2/Razor/Views/Home/Result.g.cshtml.cs
