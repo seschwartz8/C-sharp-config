@@ -12077,11 +12077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/ProjectName.csproj",
+      "projectUniqueName": "/Users/Sarah Schwartz/Desktop/ProjectName.Solution-CSConfig/ProjectName/ProjectName.csproj",
       "projectName": "ProjectName",
-      "projectPath": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/ProjectName.csproj",
+      "projectPath": "/Users/Sarah Schwartz/Desktop/ProjectName.Solution-CSConfig/ProjectName/ProjectName.csproj",
       "packagesPath": "/Users/Sarah Schwartz/.nuget/packages/",
-      "outputPath": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/ProjectName.Solution-CSConfig/ProjectName/obj/",
+      "outputPath": "/Users/Sarah Schwartz/Desktop/ProjectName.Solution-CSConfig/ProjectName/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
