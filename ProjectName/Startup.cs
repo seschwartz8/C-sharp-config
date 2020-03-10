@@ -33,6 +33,7 @@ namespace ProjectName.Models
           template: "{controller=Home}/{action=Index}/{id?}");
       });
 
+      app.UseStaticFiles();
       app.Run(async(context) =>
       {
         await context.Response.WriteAsync("Error, page not found.");

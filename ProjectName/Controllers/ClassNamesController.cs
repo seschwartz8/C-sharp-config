@@ -5,10 +5,10 @@ namespace ProjectName.Controllers
 {
   public class ClassNamesController : Controller
   {
-    [Route("/form")]
+    [HttpGet("/form")]
     public ActionResult Form() { return View(); }
 
-    [Route("/result")]
+    [HttpPost("/result")]
     public ActionResult Result(string name, string city)
     {
       ClassName instance = new ClassName("DefaultName");
