@@ -2,7 +2,7 @@
 
 ![LastCommit](https://img.shields.io/github/last-commit/seschwartz8/ProjectName)
 ![Languages](https://img.shields.io/github/languages/top/seschwartz8/ProjectName)
-[obBoard![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/)
+![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/)
 
 #### Short description, Current Version: 02.20.2020
 
