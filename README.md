@@ -1,7 +1,7 @@
 # TITLE OF PROJECT
 
-![LastCommit](https://img.shields.io/github/last-commit/seschwartz8/text-adventure)
-![Languages](https://img.shields.io/github/languages/top/seschwartz8/text-adventure)
+![LastCommit](https://img.shields.io/github/last-commit/seschwartz8/ProjectName)
+![Languages](https://img.shields.io/github/languages/top/seschwartz8/ProjectName)
 ![MIT license](https://img.shields.io/badge/License-MIT-orange.svg)
 
 #### Short description, Current Version: 02.20.2020
