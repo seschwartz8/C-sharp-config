@@ -11,7 +11,7 @@
 ---
 ## Table of Contents
 1. [Description](#description)
-2. [Setup/Installation Requirements](#setup/installation-requirements)
+2. [Setup/Installation Requirements](#installation-requirements)
 3. [Specifications](#specs)
 4. [Known Bugs](#known-bugs)
 5. [Technologies Used](#technologies-used)
@@ -22,7 +22,7 @@
 
 FULL DESCRIPTION HERE
 
-## Setup/Installation Requirements
+## Installation Requirements
 
 - ?
 - ?
