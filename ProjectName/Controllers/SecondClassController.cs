@@ -5,43 +5,34 @@ namespace ProjectName.Controllers
 {
   public class SecondClassesController : Controller
   {
-    [HttpGet("/objects")]
+    private readonly DatabaseNameContext _db;
+
+    public SecondClassesController(DatabaseNameContext db)
+    {
+      // _db is now equal to our databaseContext object
+      _db = db;
+    }
+
     public ActionResult Index()
     {
-      //Displays list of places
-      List<SecondClass> allObjects = SecondClass.GetAll();
-      return View(allObjects);
+      // Get all our instances with _db.Instances.ToList()
+      List<SecondClass> model = _db.SecondClasses.ToList();
+      return View(model);
     }
 
-    [HttpGet("/objects/new")]
-    public ActionResult New()
+    public ActionResult Create()
     {
-      //Offers form to create new place
+      // Show form for creating new instance
       return View();
     }
 
-    [HttpPost("/objects")]
-    public ActionResult Create(string description)
+    [HttpPost]
+    public ActionResult Create(SecondClass instance)
     {
-      //Creates new SecondClass
-      Place mySecondClass = new SecondClass(description);
+      // Add new instance to database
+      _db.SecondClasses.Add(instance);
+      _db.SaveChanges();
       return RedirectToAction("Index");
-    }
-
-    [HttpPost("/objects/delete")]
-    public ActionResult DeleteAll()
-    {
-      //Clears all SecondClasses
-      SecondClass.ClearAll();
-      return View();
-    }
-
-    [HttpGet("/objects/{id}")]
-    public ActionResult Show(int id)
-    {
-      //Displays one SecondClass's specific details
-      SecondClass foundSecondClass = SecondClass.Find(id);
-      return View(foundSecondClass);
     }
   }
 }

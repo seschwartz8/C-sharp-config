@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using ProjectName.Models;
 
@@ -5,43 +7,41 @@ namespace ProjectName.Controllers
 {
   public class ClassNamesController : Controller
   {
-    [HttpGet("/objects")]
-    public ActionResult Index()
+    private readonly DatabaseNameContext _db;
+
+    public ClassNamesController(DatabaseNameContext db)
     {
-      //Displays list of places
-      List<ClassName> allObjects = ClassName.GetAll();
-      return View(allObjects);
+      // _db is now equal to our databaseContext object
+      _db = db;
     }
 
-    [HttpGet("/objects/new")]
-    public ActionResult New()
+    public ActionResult Index()
     {
-      //Offers form to create new place
+      // Get all our instances with _db.Instances.ToList()
+      List<ClassName> model = _db.ClassNames.ToList();
+      return View(model);
+    }
+
+    public ActionResult Create()
+    {
+      // Show form for creating new instance
       return View();
     }
 
-    [HttpPost("/objects")]
-    public ActionResult Create(string description)
+    [HttpPost]
+    public ActionResult Create(ClassName instance)
     {
-      //Creates new ClassName
-      Place myClassName = new ClassName(description);
+      // Add new instance to database
+      _db.ClassNames.Add(instance);
+      _db.SaveChanges();
       return RedirectToAction("Index");
     }
 
-    [HttpPost("/objects/delete")]
-    public ActionResult DeleteAll()
+    public ActionResult Details(int id)
     {
-      //Clears all ClassNames
-      ClassName.ClearAll();
-      return View();
-    }
-
-    [HttpGet("/objects/{id}")]
-    public ActionResult Show(int id)
-    {
-      //Displays one ClassName's specific details
-      ClassName foundClassName = ClassName.Find(id);
-      return View(foundClassName);
+      // Look through our ClassName database and return the instances that matche the id passed to this route
+      ClassName thisClassName = _db.ClassNames.FirstOrDefault(instances => instances.ClassNameId == id);
+      return View(thisItem);
     }
   }
 }

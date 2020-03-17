@@ -4,11 +4,12 @@ namespace ProjectName.Models
 {
   public class SecondClass
   {
-    public string Name { get; set; }
+    public string Description { get; set; }
+    public int SecondClassId { get; set; } // Entity interprets this as primary key
 
-    public SecondClass(string name)
+    public SecondClass(string description)
     {
-      Name = name;
+      Description = description;
     }
 
     public bool MethodName()

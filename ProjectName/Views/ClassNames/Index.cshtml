@@ -1,6 +1,18 @@
 @{
   Layout = "_Layout";
 }
-  <h1>Welcome @Model.Name</h1>
-  <p>You are in the city of @Model.City</p>
-  <a href="/">Go To Home Page</a>
+
+@using ProjectName.Models;
+@model List<ProjectName.Models.ClassName>;
+
+
+<h1>Instances</h1>
+
+<ul>
+  @foreach(ClassName instance in Model)
+  {
+      <li>@Html.ActionLink($"{instance.Description}", "Details", new { id = instance.ClassNameId })</li>
+  }
+</ul>
+
+<p>@Html.ActionLink("Add new instance", "Create")</p>

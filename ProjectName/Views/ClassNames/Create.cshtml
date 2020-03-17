@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ProjectName.Models.ClassName
+
+<h4>Add a new instance</h4>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Description)
+    @Html.TextBoxFor(model => model.Description)
+    <input type="submit" value="Add new instance" />
+}
+<p>@Html.ActionLink("Show all items", "Index")</p>
